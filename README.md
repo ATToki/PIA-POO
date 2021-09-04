@@ -20,11 +20,13 @@ Entidades:
 - Inventario
 
 Atributos:
-- Empleado contara con un número de id ademas de ingresar su nombre y cual es su puesto dentro del restaurante
+- Empleado contara con un número de id, ademas de ingresar su nombre y cual es su puesto dentro del restaurante.
 - crearOrden();
 - recibirOrden();
 - reportarInventario();
 - Ordenlista();
 - generarticket();
-- 
+- recibirReporte();
+- hacerpedido();
 - actualizarInventario();
+- 
