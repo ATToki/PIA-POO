@@ -28,10 +28,13 @@ En un restaurante de mariscos, ha habido mucha perdida de inventario (ingredient
 - *pago();* En esta funcion se calcula la cantidad a pagar por parte del cliente y se ingresa la cantidad con la que <br />pagó el cliente, para finalmente regresar el cambio.
 - *generarticket();* Despues de recibir la orden y el pago realizado, se genera el ticket donde se muestra la cantidad de <br />platillos y bebidas, y el precio a pagado y el cambio recibido.
 - *imprimirticket();* Se manda a imprimir el ticket.
+- *regist_ingretbebida();* Esta funcion registra un ingrediente o bebida al inventario.
 - *recibirReporte();* Esta función pertenece a la Clase Inventario, y le servira a la persona que sea administrador <br />recibir los reportes de ingredientes o bebidas faltantes.
-- *actualizarInventario();* Finalmente cuando ya se halla realizado y recibido la mercancia para el inventario, se actualiza <br />los datos dentro de la CLase Inventario.
+- *act_invent();* Finalmente cuando ya se halla realizado y recibido la mercancia para el inventario, se actualiza <br />los datos dentro de la CLase Inventario.
 
 **Funcionalidades:**
 - *sesion();* En esta funcion se incia la sesion para un empleado nuevo o se ingresa la id de un empleado existente.
 
 =====================================================================
+## Diagrama UML
+![imagen_2021-09-04_105743](https://user-images.githubusercontent.com/88925101/132100743-ccf7e4ef-c665-4cf1-9283-3daab394cdff.png)
